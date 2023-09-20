@@ -1,5 +1,8 @@
 export default function Home () {
   return (
-    <div>Hola mundo</div>
+    <section>
+      <div>Hola mundo</div>
+      <div>esto es otro div</div>
+    </section>
   )
 }
