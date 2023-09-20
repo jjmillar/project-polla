@@ -1,8 +1,11 @@
+import classes from '@/app/styles.module.scss'
+
 export default function Home () {
   return (
-    <section>
-      <div>Hola mundo</div>
-      <div>esto es otro div</div>
+    <section className={classes.card}>
+      <input type='text' id='user' name='user' placeholder='nombre de usuario' />
+      <input type='password' id='password' name='password' placeholder='contraseña' />
+      <button type='button'>ENTRAR</button>
     </section>
   )
 }
